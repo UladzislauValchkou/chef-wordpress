@@ -1,0 +1,24 @@
+{
+  "id": "sqlcreds",
+  "dbuser": {
+    "encrypted_data": "/sbiVOtLJ18d5GpO7KA40y4KP29GShkC85D2Mg==\n",
+    "iv": "4Z1UL1w6kArMl43h\n",
+    "auth_tag": "rrPgbcGeLxB67IfM5N84Kw==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  },
+  "dbpass": {
+    "encrypted_data": "GAVwBRhEv1+gMNV4srzVG7wMuLB8F8vgu+GNlA==\n",
+    "iv": "5vLb/rS4UK6zS/on\n",
+    "auth_tag": "skZMfNj8DuARZJMj70DSLg==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  },
+  "adminpass": {
+    "encrypted_data": "y0SGPKvqR4IRtS5I6ZFBUNKGeC/5G1ar\n",
+    "iv": "nVIySKrIzHTqjjg+\n",
+    "auth_tag": "Us4ohVovxJUcqPt7lLHf8g==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  }
+}
