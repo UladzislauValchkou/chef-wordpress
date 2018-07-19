@@ -6,6 +6,6 @@ log_location             STDOUT
 node_name                "admin"
 client_key               "#{current_dir}/admin.pem"
 chef_server_url          "https://ChefServer/organizations/test"
-cookbook_path            ["#{current_dir}/../cookbooks"] 
+cookbook_path            ["#{current_dir}/../cookbooks"]  
 ssl_verify_mode :verify_none
 knife[:editor] = "/usr/bin/vim"
