@@ -1,0 +1,15 @@
+Generated at 2018-07-16 13:43:22 +0300
+Errno::ENOENT: No such file or directory @ rb_sysopen - /etc/chef/chef_guid
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.2.0/lib/chef/client.rb:1012:in `initialize'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.2.0/lib/chef/client.rb:1012:in `open'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.2.0/lib/chef/client.rb:1012:in `generate_guid'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.2.0/lib/chef/client.rb:262:in `run'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.2.0/lib/chef/application.rb:303:in `run_with_graceful_exit_option'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.2.0/lib/chef/application.rb:279:in `block in run_chef_client'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.2.0/lib/chef/local_mode.rb:44:in `with_server_connectivity'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.2.0/lib/chef/application.rb:261:in `run_chef_client'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.2.0/lib/chef/application/client.rb:441:in `run_application'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.2.0/lib/chef/application.rb:66:in `run'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.2.0/bin/chef-client:26:in `<top (required)>'
+/usr/bin/chef-client:272:in `load'
+/usr/bin/chef-client:272:in `<main>'
