@@ -9,8 +9,8 @@
 
 
 ## Ignore Chef related files and secrets
-.chef/cache
-.chef/syntaxcache
+.chef/cache/*
+.chef/syntaxcache/*
 .chef/*.pem
 .chef/encrypted_data_bag_secret
 
